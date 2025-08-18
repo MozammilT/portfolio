@@ -19,7 +19,7 @@ function CopyEmailButton() {
       onClick={copyToClipboard}
       whileHover={{ y: -5 }}
       whileTap={{ scale: 0.95 }}
-      className={`relative px-1 py-4 w-[12rem] bg-primary cursor-pointer text-center text-sm font-extralight rounded-full overflow-hidden ${
+      className={`relative px-1 py-4 w-[10rem] bg-primary cursor-pointer text-center text-sm font-extralight rounded-full overflow-hidden ${
         copied ? "shadow-[0_0_20px_rgba(37,39,69,0.5)]" : ""
       }`}
     >

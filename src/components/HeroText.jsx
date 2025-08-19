@@ -1,5 +1,5 @@
 import React from "react";
-import { FlipWords } from "./ui/flip-words";
+import { FlipWords } from "./flip-words";
 import { motion } from "motion/react";
 
 function HeroText() {

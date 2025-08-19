@@ -36,9 +36,12 @@ function Navbar() {
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="text-2xl font-bold transition-colors text-white hover:text-neutral-400"
           >
-            Mozammil
+            <div className="relative">
+              Mozammil{" "}
+              <div className="bg-[#ef973f] h-2 w-2 rounded-full absolute -right-3.5 top-4" />
+            </div>
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

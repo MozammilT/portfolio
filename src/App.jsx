@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
 import Projects from "./sections/Projects";
@@ -10,7 +11,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <section className="min-h-screen"></section>
+      <Experience />
     </div>
   );
 }

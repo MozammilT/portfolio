@@ -49,6 +49,7 @@ const ProjectDetails = ({
                   src={tag.path}
                   alt={tag.name}
                   className="rounded-lg size-10 hover-animation"
+                  draggable="false"
                 />
               ))}
             </div>

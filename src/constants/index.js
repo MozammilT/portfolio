@@ -190,7 +190,7 @@ export const myProjects = [
       {
         id: 4,
         name: "Arcjet",
-        path: "/logos/arcjet.svg",
+        path: "/logos/arcjet.jpg",
       },
     ],
   },
@@ -198,18 +198,18 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/socials/whatsApp.svg",
-  },
-  {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/ali-sanati/",
     icon: "/socials/linkedIn.svg",
   },
   {
+    name: "Github",
+    href: "https://github.com/MozammilT",
+    icon: "/socials/github.svg",
+  },
+  {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/mozammil.ig",
     icon: "/socials/instagram.svg",
   },
 ];
@@ -217,7 +217,7 @@ export const mySocials = [
 export const experiences = [
   {
     title: "AR Analyst",
-    job: "Adapt Health RCM Cycle",
+    job: "Sunknowledge ltd.",
     date: "2023-2025",
     contents: [
       "Providing voice and chat-based support to US clients.",
@@ -228,24 +228,15 @@ export const experiences = [
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Healthcare Support",
+    job: "Capgemini",
+    date: "2025-Present",
     contents: [
       "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
       "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Implemented secure APIs, following ISO 26262 automotive safety standards.",
+      "Ensured data privacy for customers and partners through industry-compliant protocols.",
+      "Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
     ],
   },
 ];

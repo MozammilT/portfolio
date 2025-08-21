@@ -1,23 +1,16 @@
-import About from "./sections/About";
-import Contact from "./sections/Contact";
-import Experience from "./sections/Experience";
-import Footer from "./sections/Footer";
-import Hero from "./sections/Hero";
-import Navbar from "./sections/Navbar";
-import Projects from "./sections/Projects";
-import Testimonials from "./sections/Testimonials";
+import Homepage from "./pages/Homepage";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="container mx-auto max-w-7xl">
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Experience />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
     </div>
   );
 }

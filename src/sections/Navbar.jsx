@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,24 +8,47 @@ function Navbar() {
     return (
       <ul className="nav-ul">
         <li className="nav-li">
-          <a className="nav-link" href="">
+          <Link
+            to="home"
+            smooth="true"
+            duration={1000}
+            className="nav-link cursor-pointer"
+            onClick={() => scroll.scrollToTop({ duration: 1500, smooth: true })}
+          >
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-li">
-          <a className="nav-link" href="">
+          <Link
+            to="about"
+            offset={-80}
+            smooth={true}
+            duration={1000}
+            className="nav-link cursor-pointer"
+          >
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-li">
-          <a className="nav-link" href="">
+          <Link
+            to="work"
+            offset={-70}
+            smooth={true}
+            duration={1000}
+            className="nav-link cursor-pointer"
+          >
             Work
-          </a>
+          </Link>
         </li>
         <li className="nav-li">
-          <a className="nav-link" href="">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={1000}
+            className="nav-link cursor-pointer"
+          >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     );

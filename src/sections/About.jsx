@@ -49,11 +49,11 @@ function About() {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Mozammil Tarique</p>
+            <p className="headtext">Hi, I&apos;m Mozammil Tarique</p>
             <p className="subtext">
               What started as curiosity quickly turned into passion — over the
-              last 2 years I’ve been crafting my frontend and backend skills to
-              create seamless digital experiences.
+              last 2 years I&apos;ve been crafting my frontend and backend
+              skills to create seamless digital experiences.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -85,7 +85,7 @@ function About() {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in India, and open to remote work worldwide
+              I&apos;m based in India, and open to remote work worldwide
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">

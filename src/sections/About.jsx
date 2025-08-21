@@ -51,12 +51,20 @@ function About() {
           <div className="z-10">
             <p className="headtext">Hi, I&apos;m Mozammil Tarique</p>
             <p className="subtext">
-              What started as curiosity quickly turned into passion — over the
-              last 2 years I&apos;ve been crafting my frontend and backend
-              skills to create seamless digital experiences.
+              A self-taught <strong>MERN stack</strong> developer passionate
+              about building end-to-end web applications. Skilled in
+              <strong>React</strong>, <strong>Node.js</strong>,
+              <strong> Express</strong>, <strong>MongoDB</strong>,
+              <strong> PostgreSQL</strong>, <strong>Zustand</strong> and
+              <strong> Javascript</strong> I focus on creating scalable,
+              user-friendly solutions across the full stack. <br />
+              Before moving into tech, I spent 1.5 years as a Process Associate,
+              gaining problem-solving, attention to detail, and communication
+              skills that now shape how I approach development and
+              collaboration.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-3/4 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
 
         {/* Grid 2 */}

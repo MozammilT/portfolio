@@ -58,10 +58,12 @@ function About() {
               <strong> PostgreSQL</strong>, <strong>Zustand</strong> and
               <strong> Javascript</strong> I focus on creating scalable,
               user-friendly solutions across the full stack. <br />
-              Before moving into tech, I spent 1.5 years as a Process Associate,
-              gaining problem-solving, attention to detail, and communication
-              skills that now shape how I approach development and
-              collaboration.
+              <span className="max-md:hidden">
+                Before moving into tech, I spent 1.5 years as a Process
+                Associate, gaining problem-solving, attention to detail, and
+                communication skills that now shape how I approach development
+                and collaboration.
+              </span>
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-3/4 sm:h-1/3 bg-gradient-to-t from-indigo" />

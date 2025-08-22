@@ -10,10 +10,10 @@ function Navbar() {
         <li className="nav-li">
           <Link
             to="home"
+            offset={0}
             smooth="true"
             duration={1000}
             className="nav-link cursor-pointer"
-            onClick={() => scroll.scrollToTop({ duration: 1500, smooth: true })}
           >
             Home
           </Link>
@@ -63,7 +63,7 @@ function Navbar() {
             className="text-2xl font-bold transition-colors text-white hover:text-neutral-400"
           >
             <div className="relative">
-              Mozammil{" "}
+              Mozammil
               <div className="bg-[#ef973f] h-2 w-2 rounded-full absolute -right-3.5 top-4" />
             </div>
           </a>
@@ -87,7 +87,7 @@ function Navbar() {
           className="block overflow-hidden text-center sm:hidden"
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
-          style={{ maxHeight: "100vh" }}
+          style={{ maxHeight: "100vh"}}
           transition={{ duration: 1 }}
         >
           <nav className="pb-5">

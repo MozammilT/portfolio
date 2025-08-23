@@ -3,7 +3,7 @@ import { FlipWords } from "./flip-words";
 import { motion } from "motion/react";
 
 function HeroText() {
-  const words = ["secure", "modern", "clean", ""];
+  const words = ["secure", "modern", "clean", "dynamic", "reliable"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },

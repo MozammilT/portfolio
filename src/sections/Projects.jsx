@@ -23,11 +23,15 @@ const Projects = () => {
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
       {preview && (
-        <motion.img
-          className="fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80"
-          src={preview}
+        <motion.div
+          className="p-2 bg-white fixed top-0 left-0 z-50 object-cover h-60 rounded-lg shadow-lg pointer-events-none w-80 max-sm:hidden"
           style={{ x: springX, y: springY }}
-        />
+        >
+          <motion.img
+            className="object-cover h-56 pointer-events-none w-80 rounded-[6px]"
+            src={preview}
+          />
+        </motion.div>
       )}
     </section>
   );

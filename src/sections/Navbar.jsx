@@ -11,6 +11,7 @@ function Navbar() {
           <Link
             to="home"
             offset={0}
+            onClick={() => setIsOpen(false)}
             smooth="true"
             duration={1000}
             className="nav-link cursor-pointer"
@@ -22,6 +23,7 @@ function Navbar() {
           <Link
             to="about"
             offset={-80}
+            onClick={() => setIsOpen(false)}
             smooth={true}
             duration={1000}
             className="nav-link cursor-pointer"
@@ -33,6 +35,7 @@ function Navbar() {
           <Link
             to="work"
             offset={-70}
+            onClick={() => setIsOpen(false)}
             smooth={true}
             duration={1000}
             className="nav-link cursor-pointer"
@@ -43,6 +46,7 @@ function Navbar() {
         <li className="nav-li">
           <Link
             to="contact"
+            onClick={() => setIsOpen(false)}
             smooth={true}
             duration={1000}
             className="nav-link cursor-pointer"
@@ -87,7 +91,7 @@ function Navbar() {
           className="block overflow-hidden text-center sm:hidden"
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
-          style={{ maxHeight: "100vh"}}
+          style={{ maxHeight: "100vh" }}
           transition={{ duration: 1 }}
         >
           <nav className="pb-5">

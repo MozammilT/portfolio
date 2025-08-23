@@ -53,7 +53,7 @@ function About() {
             <p className="subtext">
               A self-taught <strong>MERN stack</strong> developer passionate
               about building end-to-end web applications. Skilled in
-              <strong>React</strong>, <strong>Node.js</strong>,
+              <strong> React</strong>, <strong>Node.js</strong>,
               <strong> Express</strong>, <strong>MongoDB</strong>,
               <strong> PostgreSQL</strong>, <strong>Zustand</strong> and
               <strong> Javascript</strong> I focus on creating scalable,

@@ -25,12 +25,12 @@ export default function PrivacyPolicy() {
             <p className="text-base text-neutral-300 mb-2">
               <strong className="text-white">Website:</strong>{" "}
               <a
-                href="https://mozammiltariq.dev"
+                href="https://mozammil-portfolio-gold.vercel.app"
                 className="text-sand hover:underline ml-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://mozammiltariq.dev
+                https://mozammil-portfolio-gold.vercel.app
               </a>
             </p>
             <p className="text-base text-neutral-300">
@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
             This Privacy Policy describes how Mozammil Tarique ("I," "me," "my,"
             or "the Website Owner") collects, uses, maintains, and discloses
             information collected from users ("you," "your," or "User") of the
-            website located at https://mozammiltariq.dev ("Website" or
+            website located at https://mozammil-portfolio-gold.vercel.app ("Website" or
             "Service").
           </p>
           <p className="mb-4">
@@ -470,12 +470,12 @@ export default function PrivacyPolicy() {
               <p>
                 <strong className="text-sand">Website:</strong>{" "}
                 <a
-                  href="https://mozammiltariq.dev"
+                  href="https://mozammil-portfolio-gold.vercel.app"
                   className="text-sand hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://mozammiltariq.dev
+                  https://mozammil-portfolio-gold.vercel.app
                 </a>
               </p>
             </div>

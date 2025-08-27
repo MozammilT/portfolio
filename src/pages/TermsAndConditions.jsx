@@ -25,12 +25,12 @@ export default function TermsAndConditions() {
             <p className="text-base text-neutral-300 mb-2">
               <strong className="text-white">Website:</strong>{" "}
               <a
-                href="https://mozammiltariq.dev"
+                href="https://mozammil-portfolio-gold.vercel.app"
                 className="text-sand hover:underline ml-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://mozammiltariq.dev
+                https://mozammil-portfolio-gold.vercel.app
               </a>
             </p>
             <p className="text-base text-neutral-300">
@@ -43,7 +43,7 @@ export default function TermsAndConditions() {
         <div className="mb-10">
           <p className="text-lg mb-4 text-neutral-100">
             These Terms and Conditions ("Terms") govern your use of the website
-            located at https://mozammiltariq.dev ("Website" or "Service")
+            located at https://mozammil-portfolio-gold.vercel.app ("Website" or "Service")
             operated by Mozammil Tarique ("I," "me," "my," or "Service
             Provider").
           </p>
@@ -734,12 +734,12 @@ export default function TermsAndConditions() {
               <p>
                 <strong className="text-sand">Website:</strong>{" "}
                 <a
-                  href="https://mozammiltariq.dev"
+                  href="https://mozammil-portfolio-gold.vercel.app"
                   className="text-sand hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://mozammiltariq.dev
+                  https://mozammil-portfolio-gold.vercel.app
                 </a>
               </p>
               <p>

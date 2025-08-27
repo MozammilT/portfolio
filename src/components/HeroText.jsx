@@ -24,7 +24,7 @@ function HeroText() {
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
-            className="text-5xl font-medium text-neutral-300"
+            className="text-5xl font-medium text-neutral-200"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -44,7 +44,7 @@ function HeroText() {
             </div>
           </motion.div>
           <motion.p
-            className="text-4xl font-medium text-neutral-300"
+            className="text-4xl font-medium text-neutral-200"
             variants={variants}
             initial="hidden"
             animate="visible"

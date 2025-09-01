@@ -1,6 +1,7 @@
 export const myProjects = [
   {
     id: 1,
+    name: "Serenova",
     title: "Hotel Booking Platform",
     description:
       "Serenova is a full-stack hotel booking platform that allows users to search, filter, and book hotels seamlessly, while providing hotel managers with tools to manage listings and reservations.",
@@ -40,7 +41,8 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "A SaaS application for everyday needs",
+    name: "Nexora",
+    title: "SaaS application",
     description:
       "Nexora transforms creative workflows through AI-driven content generation, advanced image editing capabilities, and seamless community collaboration—all in one unified platform",
     subDescription: [
@@ -79,6 +81,7 @@ export const myProjects = [
   },
   {
     id: 3,
+    name: "ThoughtNest",
     title: "Blogging platform",
     description:
       "ThoughtNest is a modern blog platform that empowers users to create, publish, and manage blogs with AI-assisted writing, rich text editing, and an intuitive admin dashboard.",
@@ -111,7 +114,6 @@ export const myProjects = [
       },
       {
         id: 4,
-
         name: "Passport",
         path: "/logos/passport.svg",
       },
@@ -119,6 +121,7 @@ export const myProjects = [
   },
   {
     id: 4,
+    name: "Cinefind",
     title: "Movie Browsing Webpage",
     description:
       "Cinefind is a movie search engine that helps users discover, explore, and favorite movies using data from the TMDB API.",
@@ -158,7 +161,8 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "Postgre Store",
+    name: "PostreStore",
+    title: "Store made with SQL",
     description:
       "Postgre-Store is a product catalog and inventory management system that allows users to browse, add to cart, and manage products efficiently.",
     subDescription: [

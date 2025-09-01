@@ -4,6 +4,7 @@ import { AnimatePresence } from "motion/react";
 import { LinkPreview } from "@/components/link-preview";
 
 const Project = ({
+  name,
   title,
   description,
   subDescription,
@@ -15,12 +16,11 @@ const Project = ({
   const [isHidden, setIsHidden] = useState(false);
   return (
     <>
-      <div
-        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
-      >
+      <div className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0">
         <div>
           <LinkPreview url={href} className="text-white">
-            <p className="text-2xl text-white">{title}</p>
+            <p className="text-3xl font-semibold text-white">{name}</p>
+            <p className="text-xl text-neutral-300 mt-2">{title}</p>
           </LinkPreview>
           <div className="flex gap-5 mt-2 text-sand">
             {tags.map((tag) => (

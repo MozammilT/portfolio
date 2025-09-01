@@ -12,7 +12,7 @@ function About() {
     { text: "Javascript", style: { rotate: "75deg", top: "30%", left: "20%" } },
     { text: "Express", style: { rotate: "-40deg", top: "55%", left: "45%" } },
     { text: "MongoDB", style: { rotate: "45deg", top: "65%", left: "70%" } },
-    { text: "Vercel", style: { rotate: "-45deg", top: "55%", left: "0%" } },
+    { text: "REST API", style: { rotate: "10deg", top: "55%", left: "0%" } },
     { text: "Tailwind", style: { rotate: "10deg", top: "10%", left: "35%" } },
     {
       image: "/logos/postgre-round.png",
